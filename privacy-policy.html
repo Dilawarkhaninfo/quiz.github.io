@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+
+    <header class="header py-2">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid px-5">
+                <a class="navbar-brand" href="#">
+                    <div class="img-logo-main">
+                        <img src="./assets/images/logo-crop.png" class="img-fluid" alt="">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" onclick="myMenu()">
+                        <span class="navbar_toggler_btn"><i class="fa-solid fa-bars-staggered"></i></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                CRCST Exam
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="free-exam.html">Free  CRCST Exam</a></li>
+                                <li><a class="dropdown-item" href="premium-exam.html">Premium  CRCST Exam</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <div>
+                            <a href="login.html" class="text-decoration-none btn btn-primary rounded-5 px-5 fw-semibold">Sign In</a>
+                            <a href="sign-up.html" class="text-decoration-none btn btn-primary rounded-5 px-5 fw-semibold">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- mobile menu start -->
+        <div class="mobile-menu shadow d-flex flex-column scrollcs justify-content-between bg-white px-4 py-2">
+            <div class="row g-3">
+                <div class="col-lg-12">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <a class="mobile-menu-navbrand text-decoration-none" href="#">
+                            <div class="img-logo-main">
+                                <img src="./assets/images/logo-crop.png" class="img-fluid" alt="">
+                                <button class="border-0 bg-transparent" onclick="myClose()">
+                            <span><i class="fas fa-xmark"></i></span>
+                        </button>
+                            </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold text-black-1 fs-14 text-capitalize" href="index.html">
+                                    Home
+                                </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold text-black-1 fs-14 text-capitalize" href="about-us.html">
+                                    About Us
+                                </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold text-black-1 fs-14 text-capitalize" href="contactus.html">
+                                    Contact Us
+                                </a>
+                                </li>
+                                <li class="nav-item d-flex flex-column">
+                                    <div class="d-flex align-items-center justify-content-between w-100" data-bs-target="#mblcollapse" data-bs-toggle="collapse">
+                                        <a class="nav-link fw-semibold text-black-1 fs-14 text-capitalize" href="#">
+                                        CRCST Exam
+                                    </a>
+                                        <span class="d-block">
+                                        <img src="assets/images/right-arrow.png" class="img-fluid" style="width:20px;">
+                                    </span>
+                                    </div>
+                                    <div class="collapse w-100 mt-3" id="mblcollapse">
+                                        <div>
+                                            <ul class="list-unstyled lh-lg listside nav flex-column nav-pills">
+                                                <li>
+                                                    <a href="free-exam.html" class="text-decoration-none text-black-1 fs-14 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                                        CRCST Free Exam
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="premium-exam.html" class="text-decoration-none text-black-1 fs-14 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                                        CRCST Premium Exam
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item mt-2">
+                                    <a href="login.html" class="text-decoration-none btn btn-primary rounded-5 px-5 fw-semibold">Sign In</a>
+                                </li>
+                                <li class="nav-item mt-2">
+                                    <a href="signup.html" class="text-decoration-none btn btn-primary rounded-5 px-5 fw-semibold">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu end -->
+    </header>
+    <main>
+        <div class="d-flex justify-content-center mt-5 min-vh-100">
+            <div class="w-90">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div>
+                            <h1 class="fw-semibold text-primary">Privacy Policy</h1>
+                            <p class="lead">
+                                Free CRCSTQuestions is a 100% free website that is dedicated to helping students pass their nursing certification exams. We offer hundreds of challenging practice questions in an online, interactive format. All answers are scored instantly and detailed
+                                explanations are provided. If you have any feedback on improving our resources, <a href="contactus.html" class="text-decoration-none">please let us know.</a> Thanks!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center g-3 my-5">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <div class="card aboutus_card rounded-0">
+                                <div class="card-header rounded-0">
+                                    <h3>CRCSTTest Prep</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p class="lead">
+                                        If you are serious about getting a great score on your CRCSTtest, try out our recommended CRCSTPrep Course.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <div class="card aboutus_card rounded-0">
+                                <div class="card-header rounded-0">
+                                    <h3>CRCSTTest Prep</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p class="lead">
+                                        If you are serious about getting a great score on your CRCSTtest, try out our recommended CRCSTPrep Course.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <div class="card aboutus_card rounded-0">
+                                <div class="card-header rounded-0">
+                                    <h3>CRCSTTest Prep</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p class="lead">
+                                        If you are serious about getting a great score on your CRCSTtest, try out our recommended CRCSTPrep Course.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <div class="card aboutus_card rounded-0">
+                                <div class="card-header rounded-0">
+                                    <h3>CRCSTTest Prep</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p class="lead">
+                                        If you are serious about getting a great score on your CRCSTtest, try out our recommended CRCSTPrep Course.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer py-5 d-flex justify-content-center">
+        <div class="w-90">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <ul class="footer_list list-unstyled">
+                                <li class="m-2">
+                                    <a href="about-us.html" class="text-decoration-none">About Us</a>
+                                </li>
+                                <li class="m-2">
+                                    <a href="contactus.html" class="text-decoration-none">Contact Us</a>
+                                </li>
+                                <li class="m-2">
+                                    <a href="privacy-policy.html" class="text-decoration-none">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                    <p class="mb-0 fs-16 text-center">
+                        *NCLEX, NCLEX-RN, and NCLEX-PN are registered trademarks of the National Council of State Boards of Nursing, Inc., which was not involved in the production of, and does not endorse this site.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                    <div>
+                        <div class="footer_social_list d-flex justify-content-between">
+                            <a href="#" class="text-decoration-none">
+                                <span class="footer_social_icon">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </span>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <span class="footer_social_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <span class="footer_social_icon">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </span>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <span class="footer_social_icon">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let menu = document.querySelector('.mobile-menu');
+
+        function myMenu() {
+            menu.classList.add('active')
+        }
+    </script>
+    <script>
+        let menuclose = document.querySelector('.mobile-menu');
+
+        function myClose() {
+            menuclose.classList.remove('active');
+        }
+    </script>
+</body>
+
+</html>
