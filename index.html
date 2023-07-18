@@ -1,57 +1,58 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Index Page</title>
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" >
-    <link href="assets/css/style.css" rel="stylesheet" >
-     <!-- icons -->
-     <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-     crossorigin="anonymous"
-     referrerpolicy="no-referrer"/>
-  </head>
-  <body>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+
     <header class="header py-2">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid px-5">
-              <a class="navbar-brand" href="#">Quick <span>Quiz</span></a>
-              <button class="navbar-toggler" type="button"  onclick="myMenu()" >
-                <span class="navbar_toggler_btn"><i class="fa-solid fa-bars-staggered"></i></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about-us.html">About Us</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <a class="navbar-brand" href="#">
+                    <div class="img-logo-main">
+                        <img src="./assets/images/logo-crop.png" class="img-fluid" alt="">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" onclick="myMenu()">
+                        <span class="navbar_toggler_btn"><i class="fa-solid fa-bars-staggered"></i></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                CRCST Exam
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="free-exam.html">Free  CRCST Exam</a></li>
+                                <li><a class="dropdown-item" href="premium-exam.html">Premium  CRCST Exam</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                        </li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contactus.html">Contact Us</a>
-                  </li>
-                </ul>
-                <div>
                     <div>
-                        <a href="login.html" class="text-decoration-none btn btn-primary rounded-5 px-5 fw-semibold">Sign In</a>
-                        <a href="signup.html" class="text-decoration-none btn btn-primary rounded-5 px-5 fw-semibold">Sign Up</a>
+                        <div>
+                            <a href="login.html" class="text-decoration-none btn btn-primary rounded-5 px-5 fw-semibold">Sign In</a>
+                            <a href="sign-up.html" class="text-decoration-none btn btn-primary rounded-5 px-5 fw-semibold">Sign Up</a>
+                        </div>
                     </div>
                 </div>
-              </div>
             </div>
         </nav>
         <!-- mobile menu start -->
@@ -59,68 +60,66 @@
             <div class="row g-3">
                 <div class="col-lg-12">
                     <div class="d-flex align-items-center justify-content-between">
-                        <a class="mobile-menu-navbrand text-decoration-none" href="#">Quick <span>Quiz</span></a>
-                        <button class="border-0 bg-transparent" onclick="myClose()">
-                            <img src="assets/images/close.png">
+                        <a class="mobile-menu-navbrand text-decoration-none" href="#">
+                            <div class="img-logo-main">
+                                <img src="./assets/images/logo-crop.png" class="img-fluid" alt="">
+                                <button class="border-0 bg-transparent" onclick="myClose()">
+                            <span><i class="fas fa-xmark"></i></span>
                         </button>
+                            </div>
                     </div>
-                </div>
-                <div class="col-lg-12">
-                    <div>
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link fw-semibold text-black-1 fs-14 text-capitalize" href="index.html">
+                    <div class="col-lg-12">
+                        <div>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold text-black-1 fs-14 text-capitalize" href="index.html">
                                     Home
                                 </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link fw-semibold text-black-1 fs-14 text-capitalize" href="about-us.html">
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold text-black-1 fs-14 text-capitalize" href="about-us.html">
                                     About Us
                                 </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link fw-semibold text-black-1 fs-14 text-capitalize" href="contactus.html">
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold text-black-1 fs-14 text-capitalize" href="contactus.html">
                                     Contact Us
                                 </a>
-                            </li>
-                            <li class="nav-item d-flex flex-column">
-                                <div class="d-flex align-items-center justify-content-between w-100" data-bs-target="#mblcollapse" data-bs-toggle="collapse">
-                                    <a class="nav-link fw-semibold text-black-1 fs-14 text-capitalize" href="">
-                                        Dropdown
+                                </li>
+                                <li class="nav-item d-flex flex-column">
+                                    <div class="d-flex align-items-center justify-content-between w-100" data-bs-target="#mblcollapse" data-bs-toggle="collapse">
+                                        <a class="nav-link fw-semibold text-black-1 fs-14 text-capitalize" href="#">
+                                        CRCST Exam
                                     </a>
-                                    <span class="d-block">
+                                        <span class="d-block">
                                         <img src="assets/images/right-arrow.png" class="img-fluid" style="width:20px;">
                                     </span>
-                                </div>
-                                <div class="collapse w-100 mt-3" id="mblcollapse">
-                                    <div>
-                                        <ul class="list-unstyled lh-lg listside nav flex-column nav-pills">
-                                            <li>
-                                                <a href="" class="text-decoration-none text-black-1 fs-14 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                                                    Practice Test 1
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="" class="text-decoration-none text-black-1 fs-14 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                                                    Practice Test 2
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="" class="text-decoration-none text-black-1 fs-14 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                                                    Practice Test 3
-                                                </a>
-                                            </li>
-                                        </ul>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="nav-item mt-2">
-                                <a href="login.html" class="text-decoration-none btn btn-primary rounded-5 px-5 fw-semibold">Sign In</a>
-                            </li>
-                            <li class="nav-item mt-2">
-                                <a href="signup.html" class="text-decoration-none btn btn-primary rounded-5 px-5 fw-semibold">Sign Up</a>
-                            </li>
-                        </ul>
+                                    <div class="collapse w-100 mt-3" id="mblcollapse">
+                                        <div>
+                                            <ul class="list-unstyled lh-lg listside nav flex-column nav-pills">
+                                                <li>
+                                                    <a href="free-exam.html" class="text-decoration-none text-black-1 fs-14 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                                        CRCST Free Exam
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="premium-exam.html" class="text-decoration-none text-black-1 fs-14 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                                        CRCST Premium Exam
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item mt-2">
+                                    <a href="login.html" class="text-decoration-none btn btn-primary rounded-5 px-5 fw-semibold">Sign In</a>
+                                </li>
+                                <li class="nav-item mt-2">
+                                    <a href="signup.html" class="text-decoration-none btn btn-primary rounded-5 px-5 fw-semibold">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -133,19 +132,36 @@
             <div class="w-90">
                 <div class="row justify-content-center">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                       <div>
-                        <h1>Free NCLEX Questions</h1>
-                        <p class="lead">
-                            Looking for free NCLEX questions? We have hundreds of free questions for your test prep and review. These are challenging NCLEX practice questions with instant scoring. All of our questions include detailed explanations so that you can learn from your mistakes. These review questions will help you prepare for either the NCLEX-RN or the NCLEX-PN. Our practice tests have 75 questions each, and they cover all of the topics. To focus on a specific topic, choose from the category listing. Start your test prep right now with our free NCLEX questions!
-                        </p>
-                       </div>
+                        <div>
+                            <h1 class="primary-text fw-bold">CRCST Exam</h1>
+                            <p class="lead">
+                                The National Council Licensure Examination is more commonly known as the CRCST exam. This test is for the licensing of nurses in the U.S. and Canada, and it is taken after graduating from nursing school. There are two different versions of this nursing
+                                exam, the CRCST-PN and the CRCST-RN.
+                            </p>
+                            <p class="lead">
+                                You will take the CRCST-RN to obtain your registered nursing license, which is also known as the RN License. The CRCST-PN is for the licensing of vocational or practical nurses, also known as the LPN license.
+                            </p>
+                            <p class="lead">
+                                The tests are in the CAT format, which stands for Computerized Adaptive Testing. This type of test adapts to your abilities, asking more difficult questions as you get correct answers. This type of testing measures your ability more quickly, with fewer
+                                questions. It also reduces the advantage of guessing. The CAT format also allows more types of questions. In addition to regular multiple choice they also have alternate item formats. These include ordered response, fill-in-the-blank
+                                calculations, hot spots, and multiple response.
+                            </p>
+                            <p class="lead">
+                                The CRCST-RN has between 75 and 265 questions. If you are doing extremely well or extremely poorly, the test will stop after 75 questions, and you will be given your score. At most, you may have to answer up to 265 questions, as the computer works to
+                                evaluate your overall abilities and knowledge. The time limit is 6 hours. The CRCST-PN has between 85 and 205 questions. The time limit for this exam is 5 hours.
+                            </p>
+                            <p class="lead">
+                                These are both very challenging exams, so you will want to spend a lot of time on your test prep and review. One of the best ways to prepare is with CRCST practice questions. You should work through these questions very carefully and study the explanations
+                                when you get a wrong answer. Get started right now with our free CRCST questions!
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="row g-3 my-5">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="card text-center practice_cards border-0 shadow rounded-0 p-3">
                             <div class="card-header bg-transparent border-0">
-                                <h5>NCLEX Practice Tests</h5>
+                                <h5>CRCST Practice Free Tests</h5>
                             </div>
                             <div class="card-body">
                                 <div>
@@ -156,24 +172,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="card text-center practice_cards border-0 shadow rounded-0 p-3">
                             <div class="card-header bg-transparent border-0">
-                                <h5>NCLEX Practice Tests</h5>
-                            </div>
-                            <div class="card-body">
-                                <div>
-                                    <a href="#" class="btn btn-outline-primary d-block w-100 rounded-0 mt-3">Practice Test 1</a>
-                                    <a href="#" class="btn btn-outline-primary d-block w-100 rounded-0 mt-3">Practice Test 2</a>
-                                    <a href="#" class="btn btn-outline-primary d-block w-100 rounded-0 mt-3">Practice Test 3</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="card text-center practice_cards border-0 shadow rounded-0 p-3">
-                            <div class="card-header bg-transparent border-0">
-                                <h5>NCLEX Practice Tests</h5>
+                                <h5>CRCST Practice Premium Tests</h5>
                             </div>
                             <div class="card-body">
                                 <div>
@@ -187,24 +189,22 @@
                 </div>
                 <div class="row justify-content-center my-5">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                       <div>
-                        <h1>NCLEX Exam</h1>
-                        <p class="lead">
-                            The National Council Licensure Examination is more commonly known as the NCLEX exam. This test is for the licensing of nurses in the U.S. and Canada, and it is taken after graduating from nursing school. There are two different versions of this nursing exam, the NCLEX-PN and the NCLEX-RN.
-                        </p>
-                        <p class="lead">
-                            You will take the NCLEX-RN to obtain your registered nursing license, which is also known as the RN License. The NCLEX-PN is for the licensing of vocational or practical nurses, also known as the LPN license.
-                        </p>
-                        <p class="lead">
-                            The tests are in the CAT format, which stands for Computerized Adaptive Testing. This type of test adapts to your abilities, asking more difficult questions as you get correct answers. This type of testing measures your ability more quickly, with fewer questions. It also reduces the advantage of guessing. The CAT format also allows more types of questions. In addition to regular multiple choice they also have alternate item formats. These include ordered response, fill-in-the-blank calculations, hot spots, and multiple response.
-                        </p>
-                        <p class="lead">
-                            The NCLEX-RN has between 75 and 265 questions. If you are doing extremely well or extremely poorly, the test will stop after 75 questions, and you will be given your score. At most, you may have to answer up to 265 questions, as the computer works to evaluate your overall abilities and knowledge. The time limit is 6 hours. The NCLEX-PN has between 85 and 205 questions. The time limit for this exam is 5 hours.
-                        </p>
-                        <p class="lead">
-                            These are both very challenging exams, so you will want to spend a lot of time on your test prep and review. One of the best ways to prepare is with NCLEX practice questions. You should work through these questions very carefully and study the explanations when you get a wrong answer. Get started right now with our free NCLEX questions!
-                        </p>
-                       </div>
+                        <div>
+                            <h1 class="primary-text fw-bold">Free CRCST Questions</h1>
+                            <p class="lead">
+                                Looking for free CRCST questions? We have hundreds of free questions for your test prep and review. These are challenging CRCST practice questions with instant scoring. All of our questions include detailed explanations so that you can learn from your
+                                mistakes. These review questions will help you prepare for either the CRCST-RN or the CRCST-PN. Our practice tests have 75 questions each, and they cover all of the topics. To focus on a specific topic, choose from the
+                                category listing. Start your test prep right now with our free CRCST questions!
+                            </p>
+                        </div>
+                        <div>
+                            <h1 class="primary-text fw-bold">Premium CRCST Questions</h1>
+                            <p class="lead">
+                                Looking for premium CRCST questions? We have hundreds of premium questions for your test prep and review. These are challenging CRCST practice questions with instant scoring. All of our questions include detailed explanations so that you can learn from
+                                your mistakes. These review questions will help you prepare for either the CRCST-RN or the CRCST-PN. Our practice tests have 75 questions each, and they cover all of the topics. To focus on a specific topic, choose from
+                                the category listing. Start your test prep right now with our premium CRCST questions!
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -234,7 +234,7 @@
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                     <p class="mb-0 fs-16 text-center">
-                        *NCLEX, NCLEX-RN, and NCLEX-PN are registered trademarks of the National Council of State Boards of Nursing, Inc., which was not involved in the production of, and does not endorse this site.
+                        *CRCST, CRCST-RN, and CRCST-PN are registered trademarks of the National Council of State Boards of Nursing, Inc., which was not involved in the production of, and does not endorse this site.
                     </p>
                 </div>
             </div>
@@ -242,22 +242,22 @@
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2">
                     <div>
                         <div class="footer_social_list d-flex justify-content-between">
-                            <a href="#" class="text-decoration-none">
+                            <a href="dashboard.html" class="text-decoration-none">
                                 <span class="footer_social_icon">
                                     <i class="fa-brands fa-twitter"></i>
                                 </span>
                             </a>
-                            <a href="#" class="text-decoration-none">
+                            <a href="dashboard.html" class="text-decoration-none">
                                 <span class="footer_social_icon">
                                     <i class="fa-brands fa-facebook-f"></i>
                                 </span>
                             </a>
-                            <a href="#" class="text-decoration-none">
+                            <a href="dashboard.html" class="text-decoration-none">
                                 <span class="footer_social_icon">
                                     <i class="fa-brands fa-instagram"></i>
                                 </span>
                             </a>
-                            <a href="#" class="text-decoration-none">
+                            <a href="dashboard.html" class="text-decoration-none">
                                 <span class="footer_social_icon">
                                     <i class="fa-brands fa-linkedin-in"></i>
                                 </span>
@@ -272,17 +272,18 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script>
         let menu = document.querySelector('.mobile-menu');
-    
+
         function myMenu() {
             menu.classList.add('active')
         }
-        </script>
-        <script>
+    </script>
+    <script>
         let menuclose = document.querySelector('.mobile-menu');
-    
+
         function myClose() {
             menuclose.classList.remove('active');
         }
-        </script>
-  </body>
+    </script>
+</body>
+
 </html>
