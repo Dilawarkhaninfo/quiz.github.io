@@ -88,13 +88,12 @@
                     <div class="col-12 col-sm-12 col-md-3 col-lg-3">
                         <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
                             <div>
-                                <h3 class="fs-2">7720</h3>
+                                <h3 class="fs-2">57720</h3>
                                 <p class="fs-5 fw-bold primary-text">Total Users</p>
                             </div>
                             <i class="fas fa-users fs-1 primary-text border rounded-full secondary-bg p-3"></i>
                         </div>
                     </div>
-
                     <div class="col-12 col-sm-12 col-md-3 col-lg-3">
                         <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
                             <div>
@@ -104,7 +103,6 @@
                             <i class="fas fa-tasks-alt fs-1 primary-text border rounded-full secondary-bg p-3"></i>
                         </div>
                     </div>
-
                     <div class="col-12 col-sm-12 col-md-3 col-lg-3">
                         <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
                             <div>
@@ -114,18 +112,28 @@
                             <i class="fas fa-hand-holding-usd fs-1 primary-text border rounded-full secondary-bg p-3"></i>
                         </div>
                     </div>
-
                     <div class="col-12 col-sm-12 col-md-3 col-lg-3">
                         <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
                             <div>
-                                <h3 class="fs-2">85%</h3>
-                                <p class="fs-5 fw-bold primary-text">Reports</p>
+                                <h3 class="fs-2">9985</h3>
+                                <p class="fs-5 fw-bold primary-text">Free Users</p>
                             </div>
                             <i class="fas fa-chart-line fs-1 primary-text border rounded-full secondary-bg p-3"></i>
                         </div>
                     </div>
                 </div>
-
+                <div class="row my-5">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="bg-white rounded shadow p-3">
+                            <canvas id="lineChart" width="400" height="200"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="bg-white rounded shadow p-3">
+                            <canvas id="lineChart2" width="400" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
                 <div class="row my-5">
                     <h3 class="fs-4 mb-3">Recent Users</h3>
                     <div class="col">
@@ -208,6 +216,8 @@
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+
 
     <script>
         var el = document.getElementById("wrapper");
@@ -216,6 +226,54 @@
         toggleButton.onclick = function() {
             el.classList.toggle("toggled");
         };
+    </script>
+
+    <script>
+        var ctx = document.getElementById('lineChart').getContext('2d');
+        var lineChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+                datasets: [{
+                    label: 'Reports',
+                    data: [120, 140, 130, 160, 150, 180],
+                    backgroundColor: 'rgba(0, 123, 255, 0.3)',
+                    borderColor: 'rgba(0, 123, 255, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+
+    <script>
+        var ctx = document.getElementById('lineChart2').getContext('2d');
+        var lineChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+                datasets: [{
+                    label: 'Users',
+                    data: [120, 140, 130, 160, 150, 180],
+                    backgroundColor: 'rgba(0, 123, 255, 0.3)',
+                    borderColor: 'rgba(0, 123, 255, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
     </script>
 
 
