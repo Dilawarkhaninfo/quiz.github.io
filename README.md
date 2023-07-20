@@ -11,6 +11,17 @@ Dilawar Khan Developed this Quiz App.
 
 ![Free-Exam](https://github.com/Dilawarkhaninfo/quiz.github.io/assets/130894444/26ca3dd4-2184-4c06-aef3-cb58826786e1)
 
+# Results Pass:
+
+
+![Results-pass](https://github.com/Dilawarkhaninfo/quiz.github.io/assets/130894444/d0e38044-fbe4-46ad-b147-919677e1e25b)
+
+# Results Fail:
+
+
+
+![Results-Fail](https://github.com/Dilawarkhaninfo/quiz.github.io/assets/130894444/a5e0f9f7-4a74-4cc4-9082-1dcaeadd6832)
+
 # privacy policy:
 
 ![Privacy Policy](https://github.com/Dilawarkhaninfo/quiz.github.io/assets/130894444/475db505-570c-4d10-8195-f292294c3a99)
@@ -27,11 +38,14 @@ Dilawar Khan Developed this Quiz App.
 ![login](https://github.com/Dilawarkhaninfo/quiz.github.io/assets/130894444/36ec5ac2-9130-4d70-9ee6-111a4cf9442f)
 
 # Admin Dashboard:
-![Admin Dashboard](https://github.com/Dilawarkhaninfo/quiz.github.io/assets/130894444/9fc61f10-3f8d-4e67-b9ba-ca00b92caaab)
+
+![Admin Dashboard](https://github.com/Dilawarkhaninfo/quiz.github.io/assets/130894444/02fd211f-2b65-46ae-852f-14667d279120)
+
 
 # User View:
 
-![View Users](https://github.com/Dilawarkhaninfo/quiz.github.io/assets/130894444/2ff9e290-7233-4d0a-8796-a3ee2043da77)
+![User-view](https://github.com/Dilawarkhaninfo/quiz.github.io/assets/130894444/5355361e-8bf2-4109-aa4b-27a04247f92d)
+
 
 # Edit User:
 
